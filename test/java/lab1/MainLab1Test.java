@@ -12,9 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainLab1Test {
 
-    /* =========================
-       matrixAdd TESTS
-       ========================= */
 
     @Test
     void matrixAdd_basicAddition() {
@@ -85,9 +82,6 @@ class MainLab1Test {
         );
     }
 
-    /* =========================
-       matrixRandomFill TESTS
-       ========================= */
 
     @Test
     void matrixRandomFill_shouldFillOnlyLowercaseLetters() {
@@ -114,9 +108,6 @@ class MainLab1Test {
         assertEquals(7, result[0].length);
     }
 
-    /* =========================
-       minMax TESTS
-       ========================= */
 
     @Test
     void minMax_shouldNotThrowException() {
@@ -148,9 +139,6 @@ class MainLab1Test {
         assertTrue(output.contains("Total sum"));
     }
 
-    /* =========================
-       getInput TESTS
-       ========================= */
 
     @Test
     void getInput_shouldReturnPositiveInt() {
@@ -170,9 +158,6 @@ class MainLab1Test {
         assertEquals(7, result);
     }
 
-    /* =========================
-       printMatrix TEST
-       ========================= */
 
     @Test
     void printMatrix_shouldNotThrowException() {
